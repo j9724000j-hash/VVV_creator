@@ -1,0 +1,113 @@
+{
+  "artifact": "edit_decisions",
+  "project": "the-next-yes",
+  "version": "1.0.0",
+  "created": "2026-10-21",
+  "pipeline": "cinematic",
+  "delivery": {
+    "title": "She Wasn't Afraid of Being Alone—She Was Afraid of Loving Again",
+    "format": "youtube_shorts",
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "duration_seconds": 45.097,
+    "language": "en-US",
+    "captions": "burned-in + sidecar SRT"
+  },
+  "render_runtime": "remotion",
+  "composition_mode": "atelier",
+  "bespoke": {
+    "entry": "remotion-composer/projects/thenextyes/index.tsx",
+    "composition_id": "TheNextYes",
+    "public_dir": "remotion-composer/projects/thenextyes/public",
+    "art_direction": "../FF_Vid/art-direction.md",
+    "crf": 16,
+    "concurrency": 2,
+    "notes": "Hand-authored composition: 8 bespoke beats, custom grain/type system, no stock cut.type scenes, no RENDERER_FAMILY_MAP."
+  },
+  "cuts": [
+    {"idx": 1, "label": "THE HOOK", "source": "the-next-yes-scenes.zip#Scene 1.mp4", "in": 0.0, "out": 3.802, "src_start": 0.30, "transition_in": "rise from black", "transition_out": "hard"},
+    {"idx": 2, "label": "THE REAL FEAR", "source": "the-next-yes-scenes.zip#Scene 2.mp4", "in": 3.802, "out": 6.495, "src_start": 1.20, "transition_out": "hard"},
+    {"idx": 3, "label": "THE INVITATION", "source": "the-next-yes-scenes.zip#Scene 3.mp4", "in": 6.495, "out": 11.480, "src_start": 0.60, "transition_out": "hard"},
+    {"idx": 4, "label": "THE HESITATION", "source": "the-next-yes-scenes.zip#Scene 4.mp4", "in": 11.480, "out": 15.779, "src_start": 1.00, "transition_out": "hard"},
+    {"idx": 5, "label": "WHY SHE ALMOST SAID NO", "source": "the-next-yes-scenes.zip#Scene 5.mp4", "in": 15.779, "out": 21.190, "src_start": 1.00, "transition_out": "hard"},
+    {"idx": 6, "label": "THE TURNING POINT", "source": "the-next-yes-scenes.zip#Scene 6.mp4", "in": 21.190, "out": 28.154, "src_start": 0.50, "transition_out": "hard"},
+    {"idx": 7, "label": "ONE SMALL YES", "source": "the-next-yes-scenes.zip#Scene 7.mp4", "in": 28.154, "out": 34.277, "src_start": 0.80, "transition_out": "dissolve 13f"},
+    {"idx": 8, "label": "THE TAKEAWAY", "source": "the-next-yes-scenes.zip#Scene 8.mp4", "in": 34.277, "out": 45.097, "src_start": 0.00, "note": "clip runs out at 8.00 s; last frame held under the closing question", "transition_out": "dim to 38%"}
+  ],
+  "decision_log": [
+    {
+      "category": "render_runtime_selection",
+      "subject": "Composition runtime",
+      "chosen": "remotion",
+      "options_considered": ["remotion", "hyperframes", "ffmpeg"],
+      "rejected_because": "HyperFrames is not installed in this sandbox (no npm hyperframes runtime) and ffmpeg cannot express the per-word caption timing, grain system and graphics draw-on; Remotion 4.0.484 + the OpenMontage composer is available and renders the bespoke TSX entry directly."
+    },
+    {
+      "category": "composition_mode",
+      "subject": "Authoring mode",
+      "chosen": "atelier",
+      "options_considered": ["atelier", "templated"],
+      "rejected_because": "Hero single-deliverable; the stock cut.type catalog (text_card/stat_card/…) would reintroduce the sameness the piece is trying to avoid."
+    },
+    {
+      "category": "voice_selection",
+      "subject": "Narration TTS provider",
+      "chosen": "arena_voice voice-00 (en-US, feminine, narration)",
+      "options_considered": ["arena_voice", "piper-tts (offline, no mature American female model verified)"],
+      "notes": "10 stems generated, then trimmed on detected speech bounds, high-passed, compressed 2.2:1 and normalised to -18 LUFS each."
+    },
+    {
+      "category": "music_selection",
+      "subject": "Score",
+      "chosen": "original, synthesised in-repo (audio_build.py)",
+      "options_considered": ["library track (blocked: no licensable source reachable)"],
+      "rejected_because": "No reachable royalty-free library; score is generated additively (inharmonic partials, felt-piano envelope, synthetic hall IR) so it is licence-free and beat-locked to the edit."
+    },
+    {
+      "category": "duration",
+      "subject": "Runtime",
+      "chosen": "45.1 s",
+      "options_considered": ["38-40 s as briefed", "42-44 s"],
+      "rejected_because": "94 words of measured narration = 37.3 s of speech; the script's own pause requirements (pre/post question, hesitation hold, 1.5-2 s on-screen question) do not fit inside 40 s. Fitting 40 s would mean cutting the pauses that carry the story."
+    },
+    {
+      "category": "source_conform",
+      "subject": "Footage treatment",
+      "chosen": "1080x1920/30 fps conform with 1.5x lanczos upscale",
+      "options_considered": ["deliver at native 720x1280", "regenerate scenes at 1080p"],
+      "rejected_because": "Delivery spec is vertical Shorts at 1080x1920; regeneration was out of scope for this task and the 8 supplied clips are the approved footage."
+    }
+  ],
+  "audio": {
+    "narration_lufs": -18,
+    "programme_target": "-14 LUFS integrated, -1 dBTP",
+    "music_gain": [0.17, 0.2],
+    "sfx_gain": [0.17, 0.3],
+    "voice_over": [
+      {"file": "vo/01.wav", "start": 0.30}, {"file": "vo/02.wav", "start": 3.95},
+      {"file": "vo/03.wav", "start": 6.64}, {"file": "vo/04.wav", "start": 11.60},
+      {"file": "vo/05.wav", "start": 15.90}, {"file": "vo/06.wav", "start": 21.39},
+      {"file": "vo/07.wav", "start": 23.33}, {"file": "vo/08.wav", "start": 28.33},
+      {"file": "vo/09.wav", "start": 34.48}, {"file": "vo/10.wav", "start": 38.08}
+    ]
+  },
+  "graphics": [
+    {"beat": 1, "type": "infographic", "id": "age_slug", "in": 0.55, "out": 3.20, "content": "AGE / 52 / not afraid of alone"},
+    {"beat": 1, "type": "navigation", "id": "tick_rail_in", "in": 0.35, "out": 3.80, "content": "8-beat progress rail"},
+    {"beat": 2, "type": "infographic", "id": "two_paths", "in": 0.28, "out": 6.50, "content": "What she knew || What she risked"},
+    {"beat": 3, "type": "motion_graphic", "id": "message_card", "in": 0.72, "out": 5.15, "content": "Would you like to get dinner this Friday?"},
+    {"beat": 4, "type": "infographic", "id": "hesitation_gauge", "in": 0.18, "out": 4.30, "content": "Yes / Not yet / No — cursor drifts to No, retreats"},
+    {"beat": 5, "type": "infographic", "id": "then_now_ledger", "in": 0.28, "out": 5.41, "content": "Then: someone else's choice / Now: her own judgement"},
+    {"beat": 6, "type": "motion_graphic", "id": "chapter_marker", "in": 0.10, "out": 6.96, "content": "margin rule + THE TURNING POINT"},
+    {"beat": 7, "type": "infographic", "id": "one_coffee_tally", "in": 0.42, "out": 6.12, "content": "1 of 9 — one coffee, not a promise"},
+    {"beat": 8, "type": "navigation", "id": "tick_rail_out", "in": 0.00, "out": 10.82, "content": "rail fills as a timer"},
+    {"beat": 8, "type": "typography", "id": "final_question", "in": 8.45, "out": 10.82, "content": "Would you give love another chance?"}
+  ],
+  "captions": {
+    "source": "burned-in, per-word timed, derived from measured narration",
+    "sidecar": "FF_Vid/subtitles/THE_NEXT_YES.srt",
+    "emphasis_words": ["choosing wrong again", "the cost", "one coffee", "your future"],
+    "safe_area": {"top": 154, "bottom": 1512, "left": 72, "right": 1008}
+  }
+}

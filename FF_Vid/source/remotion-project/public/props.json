@@ -1,0 +1,1078 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1353,
+  "totalSeconds": 45.097,
+  "title": "THE NEXT YES",
+  "scenes": [
+    {
+      "idx": 1,
+      "clipDur": 8.0,
+      "label": "THE HOOK",
+      "src": "scenes/s1.mp4",
+      "from": 0.0,
+      "to": 3.802,
+      "srcStart": 0.3,
+      "rate": 1.0,
+      "srcNeed": 3.802,
+      "cut": "fade",
+      "extend": 0.0,
+      "srcEnd": 4.102,
+      "stillFrom": null,
+      "file": "cuts/c01.mp4",
+      "cutFrames": 114
+    },
+    {
+      "idx": 2,
+      "clipDur": 8.0,
+      "label": "THE REAL FEAR",
+      "src": "scenes/s2.mp4",
+      "from": 3.802,
+      "to": 6.495,
+      "srcStart": 1.2,
+      "rate": 1.0,
+      "srcNeed": 2.693,
+      "cut": "hard",
+      "extend": 0.0,
+      "srcEnd": 3.893,
+      "stillFrom": null,
+      "file": "cuts/c02.mp4",
+      "cutFrames": 81
+    },
+    {
+      "idx": 3,
+      "clipDur": 8.0,
+      "label": "THE INVITATION",
+      "src": "scenes/s3.mp4",
+      "from": 6.495,
+      "to": 11.48,
+      "srcStart": 0.6,
+      "rate": 1.0,
+      "srcNeed": 4.985,
+      "cut": "hard",
+      "extend": 0.0,
+      "srcEnd": 5.585,
+      "stillFrom": null,
+      "file": "cuts/c03.mp4",
+      "cutFrames": 150
+    },
+    {
+      "idx": 4,
+      "clipDur": 8.0,
+      "label": "THE HESITATION",
+      "src": "scenes/s4.mp4",
+      "from": 11.48,
+      "to": 15.779,
+      "srcStart": 1.0,
+      "rate": 1.0,
+      "srcNeed": 4.299,
+      "cut": "hard",
+      "extend": 0.0,
+      "srcEnd": 5.299,
+      "stillFrom": null,
+      "file": "cuts/c04.mp4",
+      "cutFrames": 129
+    },
+    {
+      "idx": 5,
+      "clipDur": 8.0,
+      "label": "WHY SHE ALMOST SAID NO",
+      "src": "scenes/s5.mp4",
+      "from": 15.779,
+      "to": 21.19,
+      "srcStart": 1.0,
+      "rate": 1.0,
+      "srcNeed": 5.411,
+      "cut": "hard",
+      "extend": 0.0,
+      "srcEnd": 6.411,
+      "stillFrom": null,
+      "file": "cuts/c05.mp4",
+      "cutFrames": 162
+    },
+    {
+      "idx": 6,
+      "clipDur": 8.0,
+      "label": "THE TURNING POINT",
+      "src": "scenes/s6.mp4",
+      "from": 21.19,
+      "to": 28.154,
+      "srcStart": 0.5,
+      "rate": 1.0,
+      "srcNeed": 6.964,
+      "cut": "hard",
+      "extend": 0.4,
+      "srcEnd": 7.864,
+      "stillFrom": null,
+      "file": "cuts/c06.mp4",
+      "cutFrames": 221
+    },
+    {
+      "idx": 7,
+      "clipDur": 8.0,
+      "label": "ONE SMALL YES",
+      "src": "scenes/s7.mp4",
+      "from": 28.154,
+      "to": 34.277,
+      "srcStart": 0.8,
+      "rate": 1.0,
+      "srcNeed": 6.123,
+      "cut": "dissolve",
+      "extend": 0.4,
+      "srcEnd": 7.323,
+      "stillFrom": null,
+      "file": "cuts/c07.mp4",
+      "cutFrames": 196
+    },
+    {
+      "idx": 8,
+      "clipDur": 8.0,
+      "label": "THE TAKEAWAY",
+      "src": "scenes/s8.mp4",
+      "from": 34.277,
+      "to": 45.097,
+      "srcStart": 0.0,
+      "rate": 1.0,
+      "srcNeed": 10.82,
+      "cut": "dissolve",
+      "extend": 0.0,
+      "srcEnd": 8.0,
+      "stillFrom": 8.0,
+      "stillSrc": "scenes/s8_last.png",
+      "file": "cuts/c08.mp4",
+      "cutFrames": 240
+    }
+  ],
+  "vo": [
+    {
+      "file": "vo/01.wav",
+      "start": 0.3,
+      "dur": 3.252
+    },
+    {
+      "file": "vo/02.wav",
+      "start": 3.952,
+      "dur": 2.243
+    },
+    {
+      "file": "vo/03.wav",
+      "start": 6.645,
+      "dur": 4.435
+    },
+    {
+      "file": "vo/04.wav",
+      "start": 11.6,
+      "dur": 3.329
+    },
+    {
+      "file": "vo/05.wav",
+      "start": 15.899,
+      "dur": 4.941
+    },
+    {
+      "file": "vo/06.wav",
+      "start": 21.39,
+      "dur": 1.438
+    },
+    {
+      "file": "vo/07.wav",
+      "start": 23.328,
+      "dur": 4.126
+    },
+    {
+      "file": "vo/08.wav",
+      "start": 28.334,
+      "dur": 5.593
+    },
+    {
+      "file": "vo/09.wav",
+      "start": 34.477,
+      "dur": 3.348
+    },
+    {
+      "file": "vo/10.wav",
+      "start": 38.075,
+      "dur": 4.422
+    }
+  ],
+  "captions": [
+    {
+      "key": "1-0",
+      "vo": 1,
+      "text": "At 52,",
+      "from": 0.35,
+      "to": 0.98,
+      "words": [
+        {
+          "t": "At",
+          "from": 0.35,
+          "to": 0.665,
+          "e": false
+        },
+        {
+          "t": "52,",
+          "from": 0.665,
+          "to": 0.98,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "1-1",
+      "vo": 1,
+      "text": "she wasn't afraid",
+      "from": 0.98,
+      "to": 2.241,
+      "words": [
+        {
+          "t": "she",
+          "from": 0.98,
+          "to": 1.296,
+          "e": false
+        },
+        {
+          "t": "wasn't",
+          "from": 1.296,
+          "to": 1.611,
+          "e": false
+        },
+        {
+          "t": "afraid",
+          "from": 1.611,
+          "to": 2.241,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "1-2",
+      "vo": 1,
+      "text": "of being alone.",
+      "from": 2.241,
+      "to": 3.502,
+      "words": [
+        {
+          "t": "of",
+          "from": 2.241,
+          "to": 2.556,
+          "e": false
+        },
+        {
+          "t": "being",
+          "from": 2.556,
+          "to": 2.872,
+          "e": false
+        },
+        {
+          "t": "alone.",
+          "from": 2.872,
+          "to": 3.502,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "2-0",
+      "vo": 2,
+      "text": "She was afraid",
+      "from": 4.002,
+      "to": 4.859,
+      "words": [
+        {
+          "t": "She",
+          "from": 4.002,
+          "to": 4.216,
+          "e": false
+        },
+        {
+          "t": "was",
+          "from": 4.216,
+          "to": 4.431,
+          "e": false
+        },
+        {
+          "t": "afraid",
+          "from": 4.431,
+          "to": 4.859,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "2-1",
+      "vo": 2,
+      "text": "of choosing wrong again.",
+      "from": 4.859,
+      "to": 6.145,
+      "words": [
+        {
+          "t": "of",
+          "from": 4.859,
+          "to": 5.073,
+          "e": false
+        },
+        {
+          "t": "choosing",
+          "from": 5.073,
+          "to": 5.502,
+          "e": true
+        },
+        {
+          "t": "wrong",
+          "from": 5.502,
+          "to": 5.716,
+          "e": true
+        },
+        {
+          "t": "again.",
+          "from": 5.716,
+          "to": 6.145,
+          "e": true
+        }
+      ],
+      "emphasis": true
+    },
+    {
+      "key": "3-0",
+      "vo": 3,
+      "text": "After a painful relationship,",
+      "from": 6.695,
+      "to": 8.646,
+      "words": [
+        {
+          "t": "After",
+          "from": 6.695,
+          "to": 7.128,
+          "e": false
+        },
+        {
+          "t": "a",
+          "from": 7.128,
+          "to": 7.345,
+          "e": false
+        },
+        {
+          "t": "painful",
+          "from": 7.345,
+          "to": 7.779,
+          "e": false
+        },
+        {
+          "t": "relationship,",
+          "from": 7.779,
+          "to": 8.646,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "3-1",
+      "vo": 3,
+      "text": "even a kind invitation",
+      "from": 8.646,
+      "to": 10.38,
+      "words": [
+        {
+          "t": "even",
+          "from": 8.646,
+          "to": 9.079,
+          "e": false
+        },
+        {
+          "t": "a",
+          "from": 9.079,
+          "to": 9.296,
+          "e": false
+        },
+        {
+          "t": "kind",
+          "from": 9.296,
+          "to": 9.513,
+          "e": false
+        },
+        {
+          "t": "invitation",
+          "from": 9.513,
+          "to": 10.38,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "3-2",
+      "vo": 3,
+      "text": "felt risky.",
+      "from": 10.38,
+      "to": 11.03,
+      "words": [
+        {
+          "t": "felt",
+          "from": 10.38,
+          "to": 10.596,
+          "e": false
+        },
+        {
+          "t": "risky.",
+          "from": 10.596,
+          "to": 11.03,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "4-0",
+      "vo": 4,
+      "text": "When someone asked her to dinner,",
+      "from": 11.65,
+      "to": 13.726,
+      "words": [
+        {
+          "t": "When",
+          "from": 11.65,
+          "to": 11.881,
+          "e": false
+        },
+        {
+          "t": "someone",
+          "from": 11.881,
+          "to": 12.342,
+          "e": false
+        },
+        {
+          "t": "asked",
+          "from": 12.342,
+          "to": 12.803,
+          "e": false
+        },
+        {
+          "t": "her",
+          "from": 12.803,
+          "to": 13.034,
+          "e": false
+        },
+        {
+          "t": "to",
+          "from": 13.034,
+          "to": 13.265,
+          "e": false
+        },
+        {
+          "t": "dinner,",
+          "from": 13.265,
+          "to": 13.726,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "4-1",
+      "vo": 4,
+      "text": "she nearly said no.",
+      "from": 13.726,
+      "to": 14.879,
+      "words": [
+        {
+          "t": "she",
+          "from": 13.726,
+          "to": 13.956,
+          "e": false
+        },
+        {
+          "t": "nearly",
+          "from": 13.956,
+          "to": 14.418,
+          "e": false
+        },
+        {
+          "t": "said",
+          "from": 14.418,
+          "to": 14.648,
+          "e": false
+        },
+        {
+          "t": "no.",
+          "from": 14.648,
+          "to": 14.879,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "5-0",
+      "vo": 5,
+      "text": "Not because she didn't want love,",
+      "from": 15.949,
+      "to": 17.942,
+      "words": [
+        {
+          "t": "Not",
+          "from": 15.949,
+          "to": 16.234,
+          "e": false
+        },
+        {
+          "t": "because",
+          "from": 16.234,
+          "to": 16.803,
+          "e": false
+        },
+        {
+          "t": "she",
+          "from": 16.803,
+          "to": 17.088,
+          "e": false
+        },
+        {
+          "t": "didn't",
+          "from": 17.088,
+          "to": 17.373,
+          "e": false
+        },
+        {
+          "t": "want",
+          "from": 17.373,
+          "to": 17.658,
+          "e": false
+        },
+        {
+          "t": "love,",
+          "from": 17.658,
+          "to": 17.942,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "5-1",
+      "vo": 5,
+      "text": "but because she remembered",
+      "from": 17.942,
+      "to": 20.22,
+      "words": [
+        {
+          "t": "but",
+          "from": 17.942,
+          "to": 18.227,
+          "e": false
+        },
+        {
+          "t": "because",
+          "from": 18.227,
+          "to": 18.797,
+          "e": false
+        },
+        {
+          "t": "she",
+          "from": 18.797,
+          "to": 19.081,
+          "e": false
+        },
+        {
+          "t": "remembered",
+          "from": 19.081,
+          "to": 20.22,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "5-2",
+      "vo": 5,
+      "text": "the cost.",
+      "from": 20.22,
+      "to": 20.79,
+      "words": [
+        {
+          "t": "the",
+          "from": 20.22,
+          "to": 20.505,
+          "e": true
+        },
+        {
+          "t": "cost.",
+          "from": 20.505,
+          "to": 20.79,
+          "e": true
+        }
+      ],
+      "emphasis": true
+    },
+    {
+      "key": "6-0",
+      "vo": 6,
+      "text": "Then she asked herself:",
+      "from": 21.44,
+      "to": 22.778,
+      "words": [
+        {
+          "t": "Then",
+          "from": 21.44,
+          "to": 21.663,
+          "e": false
+        },
+        {
+          "t": "she",
+          "from": 21.663,
+          "to": 21.886,
+          "e": false
+        },
+        {
+          "t": "asked",
+          "from": 21.886,
+          "to": 22.332,
+          "e": false
+        },
+        {
+          "t": "herself:",
+          "from": 22.332,
+          "to": 22.778,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "7-0",
+      "vo": 7,
+      "text": "\u201cWhat if protecting my heart",
+      "from": 23.378,
+      "to": 25.257,
+      "words": [
+        {
+          "t": "\u201cWhat",
+          "from": 23.378,
+          "to": 23.646,
+          "e": false
+        },
+        {
+          "t": "if",
+          "from": 23.646,
+          "to": 23.915,
+          "e": false
+        },
+        {
+          "t": "protecting",
+          "from": 23.915,
+          "to": 24.72,
+          "e": false
+        },
+        {
+          "t": "my",
+          "from": 24.72,
+          "to": 24.988,
+          "e": false
+        },
+        {
+          "t": "heart",
+          "from": 24.988,
+          "to": 25.257,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "7-1",
+      "vo": 7,
+      "text": "means never giving it a chance?\u201d",
+      "from": 25.257,
+      "to": 27.404,
+      "words": [
+        {
+          "t": "means",
+          "from": 25.257,
+          "to": 25.525,
+          "e": false
+        },
+        {
+          "t": "never",
+          "from": 25.525,
+          "to": 26.062,
+          "e": false
+        },
+        {
+          "t": "giving",
+          "from": 26.062,
+          "to": 26.599,
+          "e": false
+        },
+        {
+          "t": "it",
+          "from": 26.599,
+          "to": 26.867,
+          "e": false
+        },
+        {
+          "t": "a",
+          "from": 26.867,
+          "to": 27.136,
+          "e": false
+        },
+        {
+          "t": "chance?\u201d",
+          "from": 27.136,
+          "to": 27.404,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "8-0",
+      "vo": 8,
+      "text": "She didn't promise herself",
+      "from": 28.384,
+      "to": 30.215,
+      "words": [
+        {
+          "t": "She",
+          "from": 28.384,
+          "to": 28.689,
+          "e": false
+        },
+        {
+          "t": "didn't",
+          "from": 28.689,
+          "to": 28.994,
+          "e": false
+        },
+        {
+          "t": "promise",
+          "from": 28.994,
+          "to": 29.605,
+          "e": false
+        },
+        {
+          "t": "herself",
+          "from": 29.605,
+          "to": 30.215,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "8-1",
+      "vo": 8,
+      "text": "a happy ending.",
+      "from": 30.215,
+      "to": 31.741,
+      "words": [
+        {
+          "t": "a",
+          "from": 30.215,
+          "to": 30.52,
+          "e": false
+        },
+        {
+          "t": "happy",
+          "from": 30.52,
+          "to": 31.13,
+          "e": false
+        },
+        {
+          "t": "ending.",
+          "from": 31.13,
+          "to": 31.741,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "8-2",
+      "vo": 8,
+      "text": "She said yes to one coffee.",
+      "from": 31.741,
+      "to": 33.877,
+      "words": [
+        {
+          "t": "She",
+          "from": 31.741,
+          "to": 32.046,
+          "e": false
+        },
+        {
+          "t": "said",
+          "from": 32.046,
+          "to": 32.351,
+          "e": false
+        },
+        {
+          "t": "yes",
+          "from": 32.351,
+          "to": 32.656,
+          "e": false
+        },
+        {
+          "t": "to",
+          "from": 32.656,
+          "to": 32.961,
+          "e": false
+        },
+        {
+          "t": "one",
+          "from": 32.961,
+          "to": 33.267,
+          "e": true
+        },
+        {
+          "t": "coffee.",
+          "from": 33.267,
+          "to": 33.877,
+          "e": true
+        }
+      ],
+      "emphasis": true
+    },
+    {
+      "key": "9-0",
+      "vo": 9,
+      "text": "Because starting over",
+      "from": 34.527,
+      "to": 36.026,
+      "words": [
+        {
+          "t": "Because",
+          "from": 34.527,
+          "to": 35.027,
+          "e": false
+        },
+        {
+          "t": "starting",
+          "from": 35.027,
+          "to": 35.526,
+          "e": false
+        },
+        {
+          "t": "over",
+          "from": 35.526,
+          "to": 36.026,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "9-1",
+      "vo": 9,
+      "text": "doesn't mean trusting everyone.",
+      "from": 36.026,
+      "to": 37.775,
+      "words": [
+        {
+          "t": "doesn't",
+          "from": 36.026,
+          "to": 36.276,
+          "e": false
+        },
+        {
+          "t": "mean",
+          "from": 36.276,
+          "to": 36.526,
+          "e": false
+        },
+        {
+          "t": "trusting",
+          "from": 36.526,
+          "to": 37.025,
+          "e": false
+        },
+        {
+          "t": "everyone.",
+          "from": 37.025,
+          "to": 37.775,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "10-0",
+      "vo": 10,
+      "text": "It means learning from the past,",
+      "from": 38.125,
+      "to": 40.016,
+      "words": [
+        {
+          "t": "It",
+          "from": 38.125,
+          "to": 38.395,
+          "e": false
+        },
+        {
+          "t": "means",
+          "from": 38.395,
+          "to": 38.665,
+          "e": false
+        },
+        {
+          "t": "learning",
+          "from": 38.665,
+          "to": 39.205,
+          "e": false
+        },
+        {
+          "t": "from",
+          "from": 39.205,
+          "to": 39.476,
+          "e": false
+        },
+        {
+          "t": "the",
+          "from": 39.476,
+          "to": 39.746,
+          "e": false
+        },
+        {
+          "t": "past,",
+          "from": 39.746,
+          "to": 40.016,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "10-1",
+      "vo": 10,
+      "text": "without letting it choose",
+      "from": 40.016,
+      "to": 41.637,
+      "words": [
+        {
+          "t": "without",
+          "from": 40.016,
+          "to": 40.556,
+          "e": false
+        },
+        {
+          "t": "letting",
+          "from": 40.556,
+          "to": 41.096,
+          "e": false
+        },
+        {
+          "t": "it",
+          "from": 41.096,
+          "to": 41.366,
+          "e": false
+        },
+        {
+          "t": "choose",
+          "from": 41.366,
+          "to": 41.637,
+          "e": false
+        }
+      ],
+      "emphasis": false
+    },
+    {
+      "key": "10-2",
+      "vo": 10,
+      "text": "your future.",
+      "from": 41.637,
+      "to": 42.447,
+      "words": [
+        {
+          "t": "your",
+          "from": 41.637,
+          "to": 41.907,
+          "e": true
+        },
+        {
+          "t": "future.",
+          "from": 41.907,
+          "to": 42.447,
+          "e": true
+        }
+      ],
+      "emphasis": true
+    }
+  ],
+  "audio": {
+    "music": [
+      {
+        "file": "audio/music_A.wav",
+        "start": 0.0,
+        "end": 29.054,
+        "gain": 0.17,
+        "fadeIn": 2.4,
+        "fadeOut": 2.6
+      },
+      {
+        "file": "audio/music_B.wav",
+        "start": 28.304,
+        "end": 45.097,
+        "gain": 0.2,
+        "fadeIn": 1.6,
+        "fadeOut": 3.0
+      }
+    ],
+    "sfx": [
+      {
+        "file": "audio/sfx_room.wav",
+        "start": 0.0,
+        "end": 28.754,
+        "gain": 0.3,
+        "loop": true,
+        "fadeIn": 0.8,
+        "fadeOut": 1.2
+      },
+      {
+        "file": "audio/sfx_air.wav",
+        "start": 19.99,
+        "dur": 4.5,
+        "gain": 0.26,
+        "fadeIn": 0.1,
+        "fadeOut": 1.4
+      },
+      {
+        "file": "audio/sfx_notification.wav",
+        "start": 7.645,
+        "dur": 2.2,
+        "gain": 0.3,
+        "fadeIn": 0.01,
+        "fadeOut": 0.5
+      },
+      {
+        "file": "audio/sfx_typing.wav",
+        "start": 26.254,
+        "dur": 3.2,
+        "gain": 0.22,
+        "fadeIn": 0.05,
+        "fadeOut": 0.6
+      },
+      {
+        "file": "audio/sfx_cafe.wav",
+        "start": 28.154,
+        "end": 37.677,
+        "gain": 0.2,
+        "loop": true,
+        "fadeIn": 1.2,
+        "fadeOut": 2.4
+      },
+      {
+        "file": "audio/sfx_street.wav",
+        "start": 34.577,
+        "end": 45.097,
+        "gain": 0.17,
+        "loop": true,
+        "fadeIn": 2.0,
+        "fadeOut": 2.4
+      }
+    ]
+  }
+}
