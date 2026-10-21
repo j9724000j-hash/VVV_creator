@@ -1,0 +1,121 @@
+{
+  "project": "THE NEXT YES — Master Script v6.1.1 Edition",
+  "concept": "The fear of falling in love again after 50",
+  "format": "9:16 vertical | 1080x1920 | 30fps",
+  "visual_style": "MS-04 Emotional — warm bittersweet cinematic realism",
+  "character_continuity": "Same 52-year-old American woman in every scene: shoulder-length chestnut-brown hair with subtle silver strands, hazel eyes, natural mature skin texture, camel wool cardigan over dark navy blouse. No de-aging, no glamour retouching, no identity drift.",
+  "accent_color": "#E8A020",
+  "total_scenes": 10,
+  "unique_images_generated": 7,
+  "reused_images": 3,
+  "images": [
+    {
+      "scene_number": "01",
+      "section": "① VISUAL HOOK | 0:00 → 0:00.5",
+      "title": "TRY AGAIN? — Phone hesitation with eye reflection",
+      "voice_over": "At fifty-two, she wasn't afraid of being alone.",
+      "on_screen_text": "TRY AGAIN?",
+      "file": "scene-01-visual-hook-try-again.png",
+      "dimensions": "768x1376 (9:16 vertical)",
+      "lens": "85mm close-up",
+      "reuse": "Also used as Scene 10 Loop Trigger"
+    },
+    {
+      "scene_number": "02",
+      "section": "② VERBAL HOOK | 0:00.5 → 0:04",
+      "title": "The fear wasn't loneliness — window with mug",
+      "voice_over": "continues first sentence",
+      "on_screen_text": "The fear wasn't loneliness.",
+      "file": "scene-02-verbal-hook-window-mug.png",
+      "dimensions": "768x1376 (9:16 vertical)",
+      "lens": "50mm medium close-up"
+    },
+    {
+      "scene_number": "03",
+      "section": "③ CONTEXT BRIDGE | 0:04 → 0:08",
+      "title": "One old hurt. One new possibility. — Empty chair",
+      "voice_over": "She was afraid of choosing wrong again.",
+      "on_screen_text": "One old hurt. One new possibility.",
+      "file": "scene-03-context-bridge-empty-chair.png",
+      "dimensions": "768x1376 (9:16 vertical)",
+      "lens": "35mm layered environmental portrait"
+    },
+    {
+      "scene_number": "04",
+      "section": "④ CORE-A PAIN DEVELOPMENT | 0:08 → 0:18",
+      "title": "Phone invitation — thumb hovering",
+      "voice_over": "A painful relationship had taught her caution. Even a kind invitation felt risky. When someone asked her to dinner, she almost said no.",
+      "on_screen_text": "CAUTION + Would you like to get dinner this Friday? + ALMOST: NO",
+      "file": "scene-04-core-a-pain-phone-invitation.png",
+      "dimensions": "768x1376 (9:16 vertical)",
+      "lens": "50mm close-up"
+    },
+    {
+      "scene_number": "05",
+      "section": "⑤ CORE-B INNER CONFLICT | 0:18 → 0:28",
+      "title": "Wanting connection vs remembering cost — reflection",
+      "voice_over": "Not because she didn't want love. She remembered the cost. Maybe you know that pause: wanting connection, fearing the cost.",
+      "on_screen_text": "WANTING CONNECTION → REMEMBERING THE COST",
+      "file": "scene-05-core-b-inner-conflict-reflection.png",
+      "dimensions": "768x1376 (9:16 vertical)",
+      "lens": "50mm portrait"
+    },
+    {
+      "scene_number": "06",
+      "section": "⑥ CORE-C UNANSWERED QUESTION | 0:28 → 0:36",
+      "title": "What if protecting my heart means never giving it a chance?",
+      "voice_over": "Then one question stopped her: 'What if protecting my heart means never giving it a chance?'",
+      "on_screen_text": "WHAT IF PROTECTING MY HEART... / ...KEEPS IT CLOSED?",
+      "file": "scene-06-core-c-unanswered-question.png",
+      "dimensions": "768x1376 (9:16 vertical)",
+      "lens": "65mm close portrait"
+    },
+    {
+      "scene_number": "07",
+      "section": "⑦ EMOTIONAL PAYOFF | 0:36 → 0:44",
+      "title": "One coffee — quiet neighborhood café",
+      "voice_over": "She didn't promise a happy ending. Just one coffee—with boundaries, not blind trust.",
+      "on_screen_text": "ONE COFFEE. / NOT A PROMISE. A POSSIBILITY. / Would you give love another chance?",
+      "file": "scene-07-emotional-payoff-cafe-coffee.png",
+      "dimensions": "768x1376 (9:16 vertical)",
+      "lens": "50mm medium shot"
+    },
+    {
+      "scene_number": "08",
+      "section": "⑧ LIKE + SHARE | 0:44 → 0:47",
+      "title": "Know someone starting over? — Reuse café",
+      "voice_over": "Like this. Send it to someone starting over.",
+      "on_screen_text": "KNOW SOMEONE STARTING OVER? / Send it to them.",
+      "file": "scene-08-like-share.png",
+      "note": "Reuse of scene-07 café still — no new generation",
+      "dimensions": "768x1376 (9:16 vertical)"
+    },
+    {
+      "scene_number": "09",
+      "section": "⑨ CTA | 0:47 → 0:54",
+      "title": "Comment AGAIN — Reuse café detail",
+      "voice_over": "Comment 'AGAIN' if you're starting over. Answer the pinned question. You might help someone feel less alone.",
+      "on_screen_text": "COMMENT \"AGAIN\" ↓ / Pinned comment: What feels hardest?",
+      "file": "scene-09-cta-again.png",
+      "note": "Reuse of scene-07 café still — no new generation",
+      "dimensions": "768x1376 (9:16 vertical)"
+    },
+    {
+      "scene_number": "10",
+      "section": "⑩ LOOP TRIGGER | 0:54 → 0:58",
+      "title": "At fifty-two, she wasn't afraid of being alone. — Loop to opening",
+      "voice_over": "At fifty-two, she wasn't afraid of being alone. (repeat verbatim)",
+      "on_screen_text": "No new headline — reuse opening composition",
+      "file": "scene-10-loop-trigger-closing.png",
+      "note": "Exact reuse of scene-01 opening — enables seamless loop",
+      "dimensions": "768x1376 (9:16 vertical)"
+    }
+  ],
+  "generation_specs": {
+    "engine": "Professional cinematic AI stills — photorealistic, 8K, ARRI Alexa look",
+    "negatives": "No text inside image, no logos, no watermark, no plastic skin, no extra fingers, no distorted anatomy, no exaggerated emotion, no artificial beauty filter",
+    "color_grading": "MS-04 Warm Bittersweet — preserve natural skin tones, cool dusk blues in apartment, gentle warmth at café, LUTs.com Warm Vintage Free at 60% if applied",
+    "text_rule": "All text added in VN Video Editor with Lemonada font — never baked into AI image",
+    "continuity_rule": "Same face, hair, eyes, age, cardigan, blouse in every scene"
+  }
+}
