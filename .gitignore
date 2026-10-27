@@ -1,0 +1,9 @@
+# Regenerable/heavy intermediates
+php2shell/extracted/
+php2shell/project/scenes/
+php2shell/project/audio/*.wav
+php2shell/project/audio/*.json
+php2shell/project/audio/*.npy
+php2shell/project/renders/*.mp4
+php2shell/ffmpeg2pass-*.log*
+php2shell/project/tools/__pycache__/
