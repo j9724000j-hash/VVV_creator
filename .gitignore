@@ -1,0 +1,5 @@
+# Heavy intermediates (regenerable via project/tools/render.py + assembly)
+php2shell/extracted/
+php2shell/project/scenes/
+php2shell/project/audio/
+php2shell/project/renders/*.mp4
