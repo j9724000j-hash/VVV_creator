@@ -52,19 +52,19 @@ def run(n):
         dur = 3.282
         ins = ["01_Backgrounds/01_Working_Website_Hidden_Risk.png",
                "01_Backgrounds/03_AI_Discovery.png",
-               "03_Titles_PNG/03_PHP2Shell_AI.png",
                "02_Transparent_Elements/10_Tech_Brand_Strip.png",
                "02_Transparent_Elements/01_Readability_Shade.png"]
         F = ("[0]scale=1080:1920,setsar=1[b0];\n"
              + f"[1]scale=1215:2160,crop=1080:1920:67:'(ih-1920)*min(t/{dur:.3f},1)',setsar=1,"
                "format=rgba,fade=t=in:st=0:d=0.25:alpha=1[pan];\n"
              + "[b0][pan]overlay=0:0[bg];\n"
-             + "[2]format=rgba,fade=t=in:st=0.70:d=0.30:alpha=1[t];\n"
-             + strip_in(3, "st", 0.45)
-             + cap_in(4, "cap", 0.45)
+             + strip_in(2, "st", 0.45)
+             + cap_in(3, "cap", 0.45)
              + "[bg][st]overlay=(W-w)/2:52[s1];\n"
              + "[s1][cap]overlay=0:0[s2];\n"
-             + "[s2][t]overlay=0:0,format=yuv420p[v]")
+             + f"[s2]drawtext=fontfile={FONT}:textfile={TX}/kicker03.txt:fontsize=52:"
+               "fontcolor=0xF6F8FA:x=(w-text_w)/2:y=205:shadowcolor=0x000000AA:shadowx=0:shadowy=3:"
+               "alpha='if(lt(t,0.35),0,min((t-0.35)/0.30,1))',format=yuv420p[v]")
 
     elif n == 3:  # LAYERS 6.880–13.896 (dur 7.016) — c4 "article…" + c5 "when AI…"
         dur = 7.016
@@ -73,13 +73,11 @@ def run(n):
                "02_Transparent_Elements/04_PHP_Badge.png",
                "02_Transparent_Elements/07_Cyan_Scan_Beam.png",
                "02_Transparent_Elements/10_Tech_Brand_Strip.png",
-               "02_Transparent_Elements/01_Readability_Shade.png"]
+               "02_Transparent_Elements/01_Readability_Shade.png",
+               "03_Titles_PNG/03_PHP2Shell_AI.png"]
         F = (zoom_bg(0, dur, 1.03)
-             + f"[bg]drawtext=fontfile={FONT}:textfile={TX}/kicker03.txt:fontsize=52:"
-               "fontcolor=0xF6F8FA:x=(w-text_w)/2:y=205:shadowcolor=0x000000AA:shadowx=0:shadowy=3:"
-               "alpha='if(lt(t,0.22),0,min((t-0.22)/0.30,1))'[bgt];\n"
              + "[1]scale=940:-1,format=rgba,fade=t=in:st=0.42:d=0.35:alpha=1[lr];\n"
-             + "[bgt][lr]overlay=x=70:y='if(lt(t,0.52),1990,if(lt(t,2.42),1990-(1990-620)*(t-0.52)/1.9,620))'[o1];\n"
+             + "[bg][lr]overlay=x=70:y='if(lt(t,0.52),1990,if(lt(t,2.42),1990-(1990-620)*(t-0.52)/1.9,620))'[o1];\n"
              + "[2]scale=300:300,format=rgba,fade=t=in:st=2.15:d=0.25:alpha=1[badge];\n"
              + "[o1][badge]overlay=70:980[o2];\n"
              + "[3]format=rgba,fade=t=in:st=3.28:d=0.20:alpha=1,fade=t=out:st=5.10:d=0.35:alpha=1[beam];\n"
@@ -87,7 +85,9 @@ def run(n):
              + strip_in(4, "st", 0.35)
              + cap_in(5, "cap", 0.35)
              + "[o3][st]overlay=(W-w)/2:52[s4];\n"
-             + "[s4][cap]overlay=0:0,format=yuv420p[v]")
+             + "[s4][cap]overlay=0:0[s5];\n"
+             + "[6]format=rgba,fade=t=in:st=0.15:d=0.30:alpha=1[t3];\n"
+             + "[s5][t3]overlay=0:0,format=yuv420p[v]")
 
     elif n == 4:  # STAKES 13.896-20.478 (dur 6.582) - voice-aligned beats
         dur = 6.582
