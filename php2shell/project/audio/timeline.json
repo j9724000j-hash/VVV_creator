@@ -1,0 +1,157 @@
+{
+ "cues": [
+  {
+   "i": 1,
+   "text": "Your website works.",
+   "start": 0.299,
+   "end": 1.897
+  },
+  {
+   "i": 2,
+   "text": "That doesn\u2019t mean it\u2019s safe.",
+   "start": 2.335,
+   "end": 3.683
+  },
+  {
+   "i": 3,
+   "text": "Behind every page,\ncode runs out of sight.",
+   "start": 3.999,
+   "end": 6.424
+  },
+  {
+   "i": 4,
+   "text": "Brain Code\u2019s PHP2Shell article\nexplores what happens",
+   "start": 6.881,
+   "end": 10.16
+  },
+  {
+   "i": 5,
+   "text": "when AI helps uncover security flaws\nhiding in that foundation.",
+   "start": 10.16,
+   "end": 13.767
+  },
+  {
+   "i": 6,
+   "text": "But discovery isn\u2019t protection.",
+   "start": 13.897,
+   "end": 15.84
+  },
+  {
+   "i": 7,
+   "text": "A website can look perfectly normal",
+   "start": 16.271,
+   "end": 20.48
+  },
+  {
+   "i": 8,
+   "text": "while the software underneath\nstill needs a security update.",
+   "start": 20.48,
+   "end": 24.697
+  },
+  {
+   "i": 9,
+   "text": "The lesson? Check your PHP version\u2014\nnot just your plugins.",
+   "start": 24.827,
+   "end": 30.042
+  },
+  {
+   "i": 10,
+   "text": "So what does PHP2Shell\nmean for your website\u2014",
+   "start": 30.203,
+   "end": 34.002
+  },
+  {
+   "i": 11,
+   "text": "and where does AI fit into the story?",
+   "start": 34.238,
+   "end": 36.384
+  },
+  {
+   "i": 12,
+   "text": "You\u2019ll find the link in the comments.",
+   "start": 36.842,
+   "end": 38.249
+  }
+ ],
+ "blocks": {
+  "hook": [
+   0.299,
+   3.598
+  ],
+  "story": [
+   3.998,
+   13.647
+  ],
+  "stakes": [
+   13.897,
+   24.577
+  ],
+  "lesson": [
+   24.827,
+   29.953
+  ],
+  "question": [
+   30.203,
+   36.286699999999996
+  ],
+  "cta": [
+   36.8417,
+   38.04898
+  ]
+ },
+ "total": 38.049,
+ "fine_pauses": [
+  [
+   0.0,
+   0.303229
+  ],
+  [
+   1.77737,
+   2.33537
+  ],
+  [
+   3.56254,
+   3.9994
+  ],
+  [
+   6.30367,
+   6.88137
+  ],
+  [
+   13.6049,
+   13.897
+  ],
+  [
+   15.7201,
+   16.2713
+  ],
+  [
+   20.4503,
+   20.7296
+  ],
+  [
+   21.1905,
+   21.6445
+  ],
+  [
+   23.1379,
+   23.4186
+  ],
+  [
+   24.566,
+   24.8502
+  ],
+  [
+   29.922,
+   30.2037
+  ],
+  [
+   33.8825,
+   34.2376
+  ],
+  [
+   36.2642,
+   36.8438
+  ]
+ ]
+}
