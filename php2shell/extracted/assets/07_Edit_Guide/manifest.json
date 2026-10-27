@@ -1,0 +1,83 @@
+{
+  "09_Captions_Transparent": [
+    "01_Caption.png",
+    "14_Caption.png",
+    "08_Caption.png",
+    "09_Caption.png",
+    "03_Caption.png",
+    "07_Caption.png",
+    "10_Caption.png",
+    "04_Caption.png",
+    "05_Caption.png",
+    "06_Caption.png",
+    "13_Caption.png",
+    "11_Caption.png",
+    "02_Caption.png",
+    "12_Caption.png"
+  ],
+  "06_Fonts": [
+    "Sora-ExtraBold.ttf",
+    "Inter-Bold.ttf",
+    "Sora-Bold.ttf",
+    "Sora-OFL.txt",
+    "Inter-SemiBold.ttf",
+    "Inter-OFL.txt"
+  ],
+  "04_Titles_Editable_SVG": [
+    "04_Discovery.svg",
+    "03_PHP2Shell_AI.svg",
+    "02_Hook_Question.svg",
+    "01_Hook_First_Line.svg",
+    "07_CTA.svg",
+    "06_Question.svg",
+    "05_Check_PHP.svg",
+    "08_Closing_Brand.svg"
+  ],
+  "05_Ready_Scenes": [
+    "04_Scene.png",
+    "03_Scene.png",
+    "02_Scene.png",
+    "05_Scene.png",
+    "07_Scene.png",
+    "06_Scene.png",
+    "01_Scene.png"
+  ],
+  "08_Previous_Assets": [
+    "ASSET_PREVIEW.jpg"
+  ],
+  "03_Titles_PNG": [
+    "07_CTA.png",
+    "03_PHP2Shell_AI.png",
+    "05_Check_PHP.png",
+    "02_Hook_Question.png",
+    "08_Closing_Brand.png",
+    "06_Question.png",
+    "01_Hook_First_Line.png",
+    "04_Discovery.png"
+  ],
+  "01_Backgrounds": [
+    "06_Light_Editorial.png",
+    "03_AI_Discovery.png",
+    "04_Hidden_Runtime.png",
+    "05_Navy_Grid.png",
+    "02_Shield_Breach.png",
+    "01_Working_Website_Hidden_Risk.png"
+  ],
+  "07_Edit_Guide": [
+    "English_Captions_DRAFT.srt",
+    "README_AR.md",
+    "Approved_Script_EN.txt"
+  ],
+  "02_Transparent_Elements": [
+    "01_Readability_Shade.png",
+    "08_Red_Warning_Glow.png",
+    "07_Cyan_Scan_Beam.png",
+    "06_Down_Arrow.png",
+    "02_Browser_HUD.png",
+    "09_Neural_Network.png",
+    "04_PHP_Badge.png",
+    "05_Comments_CTA.png",
+    "03_Runtime_Layers.png",
+    "10_Tech_Brand_Strip.png"
+  ]
+}

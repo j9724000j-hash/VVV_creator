@@ -1,0 +1,63 @@
+1
+00:00:00,000 --> 00:00:01,400
+Your website works.
+
+2
+00:00:01,400 --> 00:00:03,500
+That doesn’t mean it’s safe.
+
+3
+00:00:03,500 --> 00:00:07,000
+Behind every page,
+code runs out of sight.
+
+4
+00:00:07,000 --> 00:00:10,000
+Brain Code’s PHP2Shell article
+explores what happens
+
+5
+00:00:10,000 --> 00:00:14,500
+when AI helps uncover security flaws
+hiding in that foundation.
+
+6
+00:00:14,500 --> 00:00:17,000
+But discovery isn’t protection.
+
+7
+00:00:17,000 --> 00:00:20,500
+A website can look perfectly normal
+
+8
+00:00:20,500 --> 00:00:25,000
+while the software underneath
+still needs a security update.
+
+9
+00:00:25,000 --> 00:00:29,000
+The lesson? Check your PHP version—
+not just your plugins.
+
+10
+00:00:29,000 --> 00:00:33,000
+So what does PHP2Shell
+mean for your website—
+
+11
+00:00:33,000 --> 00:00:36,000
+and where does AI fit into the story?
+
+12
+00:00:36,000 --> 00:00:40,000
+Read Brain Code’s
+full PHP2Shell breakdown
+
+13
+00:00:40,000 --> 00:00:44,500
+to understand the risk, the response,
+and what to check next.
+
+14
+00:00:44,500 --> 00:00:48,000
+You’ll find the link in the comments.
