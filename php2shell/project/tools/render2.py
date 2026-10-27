@@ -89,8 +89,8 @@ def run(n):
              + "[o3][st]overlay=(W-w)/2:52[s4];\n"
              + "[s4][cap]overlay=0:0,format=yuv420p[v]")
 
-    elif n == 4:  # STAKES 13.896–24.577 (dur 10.681) a/b/c
-        dur = 10.681
+    elif n == 4:  # STAKES 13.896-20.478 (dur 6.582) - voice-aligned beats
+        dur = 6.582
         ins = ["01_Backgrounds/02_Shield_Breach.png",
                "03_Titles_PNG/04_Discovery.png",
                "02_Transparent_Elements/08_Red_Warning_Glow.png",
@@ -101,97 +101,105 @@ def run(n):
                "02_Transparent_Elements/08_Red_Warning_Glow.png",
                "02_Transparent_Elements/10_Tech_Brand_Strip.png",
                "02_Transparent_Elements/01_Readability_Shade.png"]
-        iA, iB, iC = 0.05 / (2.375 * 30), 0.04 / (4.432 * 30), 0.04 / (3.874 * 30)
+        iA, iB, iC = 0.05 / (2.30 * 30), 0.03 / (1.65 * 30), 0.04 / (2.65 * 30)
         F = (
             f"[0]scale=2160:3840,zoompan=z='min(zoom+{iA:.7f},1.05)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
             f":d=1:s=1080x1920:fps=30,setsar=1[bA];\n"
-            + "[1]format=rgba,fade=t=in:st=0.70:d=0.30:alpha=1[t4];\n"
+            + "[1]format=rgba,fade=t=in:st=0.85:d=0.28:alpha=1[t4];\n"
             + "[2]scale=1080:1080,gblur=sigma=60,format=rgba,colorchannelmixer=aa=0.9,"
-              "fade=t=in:st=1.62:d=0.15:alpha=1,fade=t=out:st=1.82:d=0.28:alpha=1[redp];\n"
-            + f"[3]scale=2160:3840,zoompan=z='min(zoom+{iB:.7f},1.04)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+              "fade=t=in:st=1.45:d=0.15:alpha=1,fade=t=out:st=1.95:d=0.28:alpha=1[redp];\n"
+            + f"[3]scale=2160:3840,zoompan=z='min(zoom+{iB:.7f},1.03)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
               f":d=1:s=1080x1920:fps=30,setsar=1[bB];\n"
-            + "[4]scale=920:-1,format=rgba,fade=t=in:st=2.68:d=0.30:alpha=1[hud];\n"
+            + "[4]scale=920:-1,format=rgba,fade=t=in:st=2.55:d=0.28:alpha=1[hud];\n"
             + f"[5]scale=2160:3840,zoompan=z='min(zoom+{iC:.7f},1.04)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
               f":d=1:s=1080x1920:fps=30,setsar=1[bC];\n"
-            + "[6]scale=900:-1,format=rgba,fade=t=in:st=7.05:d=0.30:alpha=1[lr2];\n"
+            + "[6]scale=900:-1,format=rgba,fade=t=in:st=4.10:d=0.28:alpha=1[lr2];\n"
             + "[7]scale=900:900,gblur=sigma=55,format=rgba,colorchannelmixer=rr=1:gr=0.55:gg=0.32:bb=0:br=0:aa=0.9,"
-              "fade=t=in:st=9.70:d=0.15:alpha=1,fade=t=out:st=9.90:d=0.30:alpha=1[amb];\n"
+              "fade=t=in:st=5.85:d=0.15:alpha=1,fade=t=out:st=6.13:d=0.28:alpha=1[amb];\n"
             + "[bA][t4]overlay=0:0[x1];\n"
             + "[x1][redp]overlay=0:460[x2];\n"
-            + "[x2][bB]overlay=enable='gte(t,2.375)'[x3];\n"
-            + "[x3][hud]overlay=x='60-30*min((t-2.68)/3.9,1)':y='640-46*min((t-2.68)/3.9,1)':"
-              "enable='between(t,2.375,6.807)'[x4];\n"
-            + "[x4][bC]overlay=enable='gte(t,6.807)'[x5];\n"
-            + "[x5][lr2]overlay=x=90:y=640:enable='gte(t,6.807)'[x6];\n"
-            + strip_in(8, "st", 0.30)
-            + cap_in(9, "cap", 0.30)
-            + "[x6][st]overlay=(W-w)/2:52[s1];\n"
-            + "[s1][cap]overlay=0:0[s2];\n"
-            + "[s2][amb]overlay=90:380:enable='between(t,9.65,10.25)',format=yuv420p[v]")
+            + "[x2][bB]overlay=enable='gte(t,2.30)'[x3];\n"
+            + "[x3][hud]overlay=x='60-26*min((t-2.55)/1.4,1)':y='640-40*min((t-2.55)/1.4,1)':"
+              "enable='between(t,2.30,3.95)'[x4];\n"
+            + "[x4][bC]overlay=enable='gte(t,3.95)'[x5];\n"
+            + "[x5][lr2]overlay=x=90:y=640:enable='gte(t,3.95)'[x6];\n"
+            + "[x6][amb]overlay=90:380:enable='between(t,5.80,6.45)'[x7];\n"
+            + "[8]scale=620:-1,format=rgba,colorchannelmixer=aa=0.92,fade=t=in:st=0.30:d=0.4:alpha=1[st];\n"
+            + "[x7][st]overlay=(W-w)/2:52[s1];\n"
+            + "[9]format=rgba,fade=t=in:st=0.30:d=0.4:alpha=1[cap];\n"
+            + "[s1][cap]overlay=0:0,format=yuv420p[v]")
 
-    elif n == 5:  # LESSON 24.577–30.203 (dur 5.626)
-        dur = 5.626
+    elif n == 5:  # LESSON 20.478-24.577 (dur 4.099)
+        dur = 4.099
         ins = ["01_Backgrounds/05_Navy_Grid.png",
                "02_Transparent_Elements/04_PHP_Badge.png",
                "03_Titles_PNG/05_Check_PHP.png",
                "02_Transparent_Elements/10_Tech_Brand_Strip.png",
                "02_Transparent_Elements/01_Readability_Shade.png"]
         F = (zoom_bg(0, dur, 1.03)
-             + "[1]scale=384:384,format=rgba,fade=t=in:st=0.55:d=0.25:alpha=1[badge];\n"
-             + "[2]format=rgba,fade=t=in:st=1.20:d=0.30:alpha=1[t5];\n"
+             + "[1]scale=384:384,format=rgba,fade=t=in:st=0.35:d=0.25:alpha=1[badge];\n"
+             + "[2]format=rgba,fade=t=in:st=1.15:d=0.28:alpha=1[t5];\n"
              + "[bg][badge]overlay=348:830[o1];\n"
              + "[o1][t5]overlay=0:0[o2];\n"
-             + strip_in(3, "st", 0.35)
-             + cap_in(4, "cap", 0.35)
+             + "[3]scale=620:-1,format=rgba,colorchannelmixer=aa=0.92,fade=t=in:st=0.35:d=0.4:alpha=1[st];\n"
              + "[o2][st]overlay=(W-w)/2:52[s3];\n"
+             + "[4]format=rgba,fade=t=in:st=0.35:d=0.4:alpha=1[cap];\n"
              + "[s3][cap]overlay=0:0,format=yuv420p[v]")
 
-    elif n == 6:  # QUESTION 30.203–36.842 (dur 6.639)
-        dur = 6.639
+    elif n == 6:  # QUESTION 24.577-29.953 (dur 5.376)
+        dur = 5.376
         ins = ["01_Backgrounds/05_Navy_Grid.png",
                "02_Transparent_Elements/09_Neural_Network.png",
                "03_Titles_PNG/06_Question.png",
                "02_Transparent_Elements/10_Tech_Brand_Strip.png",
                "02_Transparent_Elements/01_Readability_Shade.png"]
         F = (zoom_bg(0, dur, 1.025)
-             + "[1]format=rgba,fade=t=in:st=0.30:d=0.60:alpha=1[nn];\n"
-             + "[2]format=rgba,fade=t=in:st=0.72:d=0.30:alpha=1[t6];\n"
-             + "[bg][nn]overlay=x='-22*min(t/6.2,1)':y=0[o1];\n"
+             + "[1]format=rgba,fade=t=in:st=0.25:d=0.55:alpha=1[nn];\n"
+             + "[2]format=rgba,fade=t=in:st=0.60:d=0.28:alpha=1[t6];\n"
+             + "[bg][nn]overlay=x='-20*min(t/5.0,1)':y=0[o1];\n"
              + "[o1][t6]overlay=0:0[o2];\n"
-             + strip_in(3, "st", 0.35)
-             + cap_in(4, "cap", 0.35)
+             + "[3]scale=620:-1,format=rgba,colorchannelmixer=aa=0.92,fade=t=in:st=0.35:d=0.4:alpha=1[st];\n"
              + "[o2][st]overlay=(W-w)/2:52[s3];\n"
+             + "[4]format=rgba,fade=t=in:st=0.35:d=0.4:alpha=1[cap];\n"
              + "[s3][cap]overlay=0:0,format=yuv420p[v]")
 
-    elif n == 7:  # CTA + OUTRO 36.842–40.900 (dur 4.058)
-        dur = 4.058
-        ins = ["01_Backgrounds/05_Navy_Grid.png",
+    elif n == 7:  # READ-CTA (light editorial) + FINAL LINE (comments card) + BRAND OUTRO
+        dur = 10.947
+        ins = ["01_Backgrounds/06_Light_Editorial.png",
+               "02_Transparent_Elements/04_PHP_Badge.png",
+               "01_Backgrounds/05_Navy_Grid.png",
+               "02_Transparent_Elements/08_Red_Warning_Glow.png",
+               "02_Transparent_Elements/08_Red_Warning_Glow.png",
                "02_Transparent_Elements/05_Comments_CTA.png",
                "02_Transparent_Elements/06_Down_Arrow.png",
                "03_Titles_PNG/08_Closing_Brand.png",
-               "02_Transparent_Elements/08_Red_Warning_Glow.png",
-               "02_Transparent_Elements/08_Red_Warning_Glow.png"]
-        F = ("[0]scale=1080:1920,setsar=1[b0];\n"
-             + f"color=c=0x081320:s=1080x1920:d={dur + 0.2:.3f}[base];\n"
-             + "[4]scale=1600:1600,gblur=sigma=80,format=rgba,colorchannelmixer=rr=0:gr=0.30:gg=0.32:br=0.95:bb=1:aa=0.55[gbig];\n"
-             + "[5]scale=850:850,gblur=sigma=65,format=rgba,colorchannelmixer=rr=0:gr=0.25:gg=0.35:br=0.90:bb=1:aa=0.32[gsm];\n"
-             + "[base][gbig]overlay=x=-230:y=1020[g1];\n"
-             + "[g1][gsm]overlay=x=460:y=-290[g2];\n"
-             + "[g2]format=rgba,fade=t=in:st=0:d=0.30:alpha=1[gin];\n"
-             + "[b0][gin]overlay=0:0[bg];\n"
-             # comments bubble rises (voice 0–1.21 of scene)
-             + "[1]scale=760:-1,format=rgba,fade=t=in:st=0.16:d=0.25:alpha=1,"
-               "fade=t=out:st=1.75:d=0.30:alpha=1[card];\n"
-             + "[2]scale=228:380,format=rgba,fade=t=in:st=0.42:d=0.20:alpha=1,"
-               "fade=t=out:st=1.78:d=0.26:alpha=1[arw];\n"
-             + "[bg][card]overlay=x=160:'1150+8*sin(6*(t-0.16))':enable='between(t,0.16,2.10)'[o1];\n"
-             + "[o1][arw]overlay=x=426:'1408+14*abs(sin(2*PI*(t-0.42)/0.9))':enable='between(t,0.42,2.10)'[o2];\n"
-             # brand closing card takes over for the outro
-             + "[3]scale=1080:1920,format=rgba,crop=1080:1840:0:0,fade=t=in:st=1.95:d=0.35:alpha=1[t8];\n"
-             + "[o2][t8]overlay=0:80[o3];\n"
-             # gentle closing breath: slight zoom on final comp
-             + "[o3]scale=1188:2112,zoompan=z='min(zoom+0.00045,1.045)'"
-               ":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,format=yuv420p[v]")
+               "02_Transparent_Elements/10_Tech_Brand_Strip.png"]
+        incL = 0.05 / (6.5 * 30)
+        F = (
+            f"[0]scale=2160:3840,zoompan=z='min(zoom+{incL:.7f},1.05)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+            f":d=1:s=1080x1920:fps=30,setsar=1[light];\n"
+            + "[1]scale=330:330,format=rgba,fade=t=in:st=0.85:d=0.28:alpha=1[badge];\n"
+            + "[light][badge]overlay=(W-w)/2:830[la];\n"
+            + "[8]scale=620:-1,format=rgba,colorchannelmixer=aa=0.92,fade=t=in:st=0.45:d=0.4:alpha=1[st];\n"
+            + "[la][st]overlay=(W-w)/2:52[lb];\n"
+            + "color=c=0x081320:s=1080x1920:d=11.2[base];\n"
+            + "[3]scale=1600:1600,gblur=sigma=80,format=rgba,colorchannelmixer=rr=0:gr=0.30:gg=0.32:br=0.95:bb=1:aa=0.55[gbig];\n"
+            + "[4]scale=850:850,gblur=sigma=65,format=rgba,colorchannelmixer=rr=0:gr=0.25:gg=0.35:br=0.90:bb=1:aa=0.32[gsm];\n"
+            + "[base][gbig]overlay=x=-230:y=1020[g1];\n"
+            + "[g1][gsm]overlay=x=460:y=-290[g2];\n"
+            + "[2]scale=1080:1920,setsar=1[g3];\n"
+            + "[g3][g2]overlay=0:0[gt];\n"
+            + "[gt]format=rgba,fade=t=in:st=5.95:d=0.35:alpha=1[gin];\n"
+            + "[lb][gin]overlay=0:0[bg];\n"
+            + "[5]scale=760:-1,format=rgba,fade=t=in:st=6.75:d=0.25:alpha=1,"
+              "fade=t=out:st=8.30:d=0.28:alpha=1[card];\n"
+            + "[6]scale=228:380,format=rgba,fade=t=in:st=7.05:d=0.20:alpha=1,"
+              "fade=t=out:st=8.32:d=0.25:alpha=1[arw];\n"
+            + "[7]scale=1080:1920,format=rgba,crop=1080:1840:0:0,fade=t=in:st=8.60:d=0.35:alpha=1[t8];\n"
+            + "[bg][card]overlay=x=160:'1150+8*sin(6*(t-6.75))':enable='between(t,6.75,8.62)'[o1];\n"
+            + "[o1][arw]overlay=x=426:'1408+14*abs(sin(2*PI*(t-7.05)/0.9))':enable='between(t,7.05,8.62)'[o2];\n"
+            + "[o2][t8]overlay=0:80,format=yuv420p[v]")
+
     else:
         raise SystemExit("scene 1..7 only")
 
